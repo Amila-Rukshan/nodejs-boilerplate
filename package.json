@@ -14,7 +14,14 @@
   "author": "amila.senadheera",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "express-validation": "^3.0.6",
+    "helmet": "^4.1.1",
+    "joi": "^17.2.1",
+    "mongoose": "^5.10.6",
+    "validator": "^13.1.17"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -24,6 +31,7 @@
     "babel-preset-env": "^1.7.0",
     "eslint": "^7.9.0",
     "eslint-config-airbnb": "^18.2.0",
+    "morgan": "^1.10.0",
     "nodemon": "^2.0.4",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12",
