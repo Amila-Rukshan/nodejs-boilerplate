@@ -1,5 +1,8 @@
 const devConfig = {
-    MONGO_URL: 'mongodb://localhost/make-a-nodejs-api-dev'
+    MONGO_URL: 'mongodb://localhost/make-a-nodejs-api-dev',
+    JWT_SECRET: 'thisisasecret',
+    FACEBOOK_APP_ID: "968881793611886",
+    FACEBOOK_APP_SECRET: "00d559b78b9794b1d5753ec7b877de7e"
 };
 
 const testConfig = {
